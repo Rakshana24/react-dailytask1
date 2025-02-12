@@ -22,7 +22,7 @@ const Login = () => {
    
     if (username === 'rakshana' && password === '123456') {
         
-        navigate('/Marks', { state: { username } });
+        navigate('/react-dailytask1/Marks', { state: { username } });
       } else {
         setError('Invalid username or password');
         return;
